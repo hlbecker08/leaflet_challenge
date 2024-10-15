@@ -8,3 +8,26 @@ body,
 html {
   height: 100%;
 }
+
+.legend {
+  background: white; 
+  padding: 10px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.legend h4 {
+  margin: 0 0 5px 0;
+}
+
+.legend i {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
